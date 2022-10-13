@@ -1,0 +1,30 @@
+app
+validator
+checker 
+
+list of problems
+problem = {
+    statement,
+    submission,
+}
+verdict page
+create problem
+
+
+
+Question {
+    name: string,
+    problem-statement: string,
+
+    sample-input: string,
+    sample-output: string,
+    test-cases-input: string,
+    test-cases-output: string,
+
+    time-limit: int,
+    memory-limit: int,
+    tags: [string],
+
+    generator: string,
+    checker-code: string
+}
